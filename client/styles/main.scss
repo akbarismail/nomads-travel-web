@@ -170,9 +170,98 @@ header {
   h2 {
     font-family: "Playfair Display", serif;
     font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
   }
 
   img {
     max-width: 100%;
+  }
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.section-testimonial-content {
+  margin-top: -250px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-content {
+    min-height: 380px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .testimonial {
+    color: #6e6e6e;
+    font-weight: 200;
+    font-size: 26px;
+    min-height: 160px;
+  }
+
+  hr {
+    margin: 0 -20px;
+  }
+
+  .trip-to {
+    font-weight: normal;
+    font-size: 22px;
+    color: #6e6e6e;
+  }
+
+  .btn-get-started {
+    background-color: #ff9e53;
+    color: #fff;
+
+    &:hover {
+      background-color: #ffaa69;
+      color: #fff;
+    }
+  }
+
+  .btn-need-help {
+    background-color: #f2f2f2;
+    color: #c3c3c3;
+
+    &:hover {
+      background-color: #fafafa;
+      color: #c3c3c3;
+    }
+  }
+}
+
+// Footer
+.section-footer {
+  h5 {
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  a {
+    color: #071c4d;
   }
 }
