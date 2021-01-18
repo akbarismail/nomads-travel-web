@@ -309,6 +309,11 @@ header {
     }
   }
 
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
   .features {
     margin-top: 20px;
 
@@ -332,6 +337,44 @@ header {
       width: 45px;
       height: 45px;
       float: left;
+    }
+  }
+
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
+
+      .xactive {
+        border: 2px solid #1abc9c;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .members {
+    .members-image {
+      width: 100%;
+    }
+  }
+
+  .join-container {
+    margin-top: -16px;
+  }
+
+  .btn-join-now {
+    background-color: #ff9e53;
+    color: #fff;
+    border-radius: 0;
+
+    &:hover {
+      background-color: #ffb57c;
+      color: #fff;
     }
   }
 }
